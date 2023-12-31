@@ -34,8 +34,14 @@ if [ -d "$rrrglass_dir" ]; then
 
     # Create a symbolic link named 'public_html' pointing to the 'public' directory
     ln -s public public_html
+    # installing the composer files 
     php composer.phar install  
+    # composer install
     echo "composer done--------"
+    # decrupt the env 
+    php artisan env:decrypt --key=base64:YvV/3n5lZWVjJkiwVUouvS9FBY+b5qd+5TB81KoXtro= 
+
+    
 
 
 
