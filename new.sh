@@ -39,7 +39,7 @@ if [ -d "$rrrglass_dir" ]; then
     # composer install
     echo "composer done--------"
     # decrupt the env 
-    php artisan env:decrypt --key=base64:YvV/3n5lZWVjJkiwVUouvS9FBY+b5qd+5TB81KoXtro= 
+
 
     
 
